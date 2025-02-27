@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: lizheming/github-translate-action@latest
+      - uses: lizheming/github-translate-action
         env:
           GITHUB_TOKEN: ${{ secrets.TRANSLATOR_TOKEN }}
         with:
